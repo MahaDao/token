@@ -1,6 +1,6 @@
 pragma solidity ^0.6.0;
 
-import "../node_modules/@openzeppelin/contracts/presets/ERC20PresetMinterPauser.sol";
+import "@openzeppelin/contracts/presets/ERC20PresetMinterPauser.sol";
 
 contract MahaToken is ERC20PresetMinterPauser {
     address public upgradedAddress;
